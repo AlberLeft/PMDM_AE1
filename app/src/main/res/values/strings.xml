@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">CalculadoraSalario_AlbertoClemente</string>
+    <string name="textTopMain">Calculadora de Salario Neto</string>
+    <string name="clickCalculo">Calcular</string>
+    <string name="inputText">Ingresa salario bruto</string>
+    <string name="textSalarioAnual">Tu salario:</string>
+    <string name="textTitlePagas">Pagas al año</string>
+    <string-array name="pagasList">
+        <item><font color="#8A8A8A">Pagas</font></item>
+        <item><font color="#FFFFFF">12</font></item>
+        <item><font color="#FFFFFF">13</font></item>
+        <item><font color="#FFFFFF">14</font></item>
+        <item><font color="#FFFFFF">16</font></item>
+    </string-array>
+    <string name="textTitleDiscap"> Discapacidad:</string>
+    <string-array name="textSpinnerDiscap">
+        <item><font color="#8A8A8A">Discapacidad</font></item>
+        <item><font color="#FFFFFF">0%</font></item>
+        <item><font color="#FFFFFF">33% o más</font></item>
+        <item><font color="#FFFFFF">67% o más</font></item>
+    </string-array>
+    <string name="textTitleEdad">Edad</string>
+    <string name="sumar">sumar</string>
+    <string name="restar">restar</string>
+    <string name="textTitleEstadoCivil">Estado civil</string>
+    <string name="hijos">Hijos:</string>
+    <string-array name="textSpinnerCivil">
+        <item><font color="#8A8A8A">Estado civil</font></item>
+        <item><font color="#FFFFFF">Casado/a</font></item>
+        <item><font color="#FFFFFF">Soltero/a</font></item>
+        <item><font color="#FFFFFF">Divorciado/a</font></item>
+        <item><font color="#FFFFFF">Viudo/a</font></item>
+    </string-array>
+</resources>

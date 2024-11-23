@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultado_Salario"
+    android:background="@color/appBackground"
+    >
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="345dp"
+        android:layout_height="640dp"
+        app:cardBackgroundColor="@color/colorLayout"
+        app:cardCornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/textSalarioAnual"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/textTitlePagas"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                    app:layout_constraintTop_toTopOf="@+id/cardView"
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/textTitleDiscap"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/textTitleEdad"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/textTitleEstadoCivil"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:layout_width="188dp"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:text="@string/hijos"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+
+                    tools:ignore="ChildInNonViewGroup" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <TextView
+
+                    android:id="@+id/resultSalario"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    tools:text="text"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+
+                    tools:ignore="ChildInNonViewGroup" />
+
+                <TextView
+                    android:id="@+id/resultPagas"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    app:layout_constraintEnd_toStartOf="@+id/guideline8"
+                    app:layout_constraintTop_toTopOf="@+id/cardView"
+                    tools:ignore="ChildInNonViewGroup"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/resultDiscapacidad"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    tools:ignore="ChildInNonViewGroup"
+
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/resultEdad"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    tools:ignore="ChildInNonViewGroup"
+
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/resultEstado"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    tools:ignore="ChildInNonViewGroup"
+                    tools:text="text" />
+
+                <TextView
+                    android:id="@+id/resultHijos"
+                    android:layout_width="match_parent"
+                    android:layout_height="108dp"
+                    android:fontFamily="monospace"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    android:translationZ="4dp"
+                    tools:ignore="ChildInNonViewGroup"
+
+                    tools:text="text" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="221dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="193dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
